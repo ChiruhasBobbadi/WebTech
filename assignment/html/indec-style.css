@@ -25,17 +25,25 @@ header{
     color:white;
     border-bottom:  lightcoral 3px solid;
 }
+header.current{
+    color:white;
+}
 
 header li{
-    margin-left:25px;
-    padding:10px;
+    align-content: center;
+   margin-left:150px; 
     display: inline;
-    float: right;
+    padding-left:5px;
+    margin-right: 25px;
+    
+   
    
 }
 header a:hover{
     color: white;
 }
+
+
 
 
 
@@ -47,19 +55,86 @@ header a:hover{
     border: 1px blue solid;
     width: 100px;
     text-align: center;
+    float:left;
+    margin-top:5%;
+    min-width:10%;
+    
+}
+#desc a{
+    text-decoration: none;
 }
 
-header .current{
-    font-weight:bold;
-    color: aqua;
+
+.heading{
+    margin-top:5%;
+    float:left;
+    width:70%;
+    margin-left: 10%;
+    text-align:center;
 }
+.heading h1{
+    font-size: 30px;
+    
+
+}
+
+.cat{
+    width: 50%;
+}
+
 
 
 footer{
-    margin-top: 263px;
+    margin-top: 40%;
     color:black;
 
 background:palegoldenrod;
 padding:7.5px;
 text-align: center;
+}
+
+
+
+
+
+.container2{
+    width:60%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.cat{
+    margin-top: 50px;
+    width:100%;
+   
+     
+}
+
+.cat td{
+    width:40%;
+    padding-top: 20px; 
+}
+
+
+.table2{
+    
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.table2 h3{
+    margin-left:9%;
+}
+
+
+section input[type="submit"]
+{
+    width:100px;
+    height:50px;
+    background: coral;
+    color: white;
+    text-align: center;
+    /* //margin-top: 20px; */
+    border:none;
+    /* //margin:20px; */
 }
